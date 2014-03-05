@@ -1,0 +1,17 @@
+body{
+	font-size: 60pt;
+	margin-top: 10%;
+	margin-left: 40%;
+}
+
+p{
+	font-size: 60pt;
+	position: relative;
+}
+
+#cooperlogo{
+	width: 200%;
+	height: 200%;
+	margin-left: 45%;
+	
+}

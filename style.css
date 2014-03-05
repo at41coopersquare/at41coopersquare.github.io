@@ -1,0 +1,85 @@
+body {
+	background-size: 100%;
+	background-attachment: fixed;
+	background-image: url('CooperUnionBackground.jpg'); 
+	<!-- background-color: transparent; -->
+	opacity: 0.5;
+
+	margin-left: 10%;
+	margin-right: 100%;
+
+	width: 40%;
+	text-align: center;
+
+	color: black;
+
+	position: relative;
+}
+
+a, a:link {
+	color: black;
+}
+
+@font-face {
+font-family: cooperfont;
+src: url('Gridnik.ttf');
+}
+	 
+
+h1 {
+	font-family: cooperfont;
+	font-size:40pt;
+}
+
+p {
+	font-family: Palatino Linotype;
+	font-size: 14pt;
+}
+
+.page {
+	font-family: Cambria;
+	font-size: 30pt;
+}
+
+
+#Welcome {
+	position: absolute;
+
+	top: 250px;
+	left: 25px;
+}
+
+#GreenFeatures {
+	position: absolute;
+
+	top: 250px;
+	left: 425px;
+}
+
+#Efficiency {
+	position: absolute;
+
+	top: 250px;
+	left: 780px;
+}
+
+#RealTime {
+	position: absolute;
+
+	top: 620px;
+	left: 25px;
+}
+
+#Cost {
+	position: absolute;
+
+	top: 620px;
+	left: 425px;
+}
+
+#Events {
+	position: absolute;
+
+	top: 620px;
+	left: 780px;
+}
