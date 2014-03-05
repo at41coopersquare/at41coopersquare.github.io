@@ -15,8 +15,9 @@ body {
 }
 
 @font-face{
-font-family: "cooperfont";
+font-family: "FoundGriMed";
 src: url('FoundGriMed');
+font-weight: normal;
 }
 
 #top{
@@ -42,7 +43,7 @@ margin-right: 50%;
 }
 header {
     position: relative;
-    width: 440px;
+    width: 100%;
     height: 70px;
     margin: 0 auto;
 }
@@ -54,11 +55,11 @@ header hgroup {
 
 header hgroup h1 {
     font-size: 40px;
-	font-family: "cooperfont", Helvetica;
+	font-family: "FoundGriMed", Helvetica;
     color: #fff;
     display: inline-table;
     height: 50px;
-    width: 600px;
+    width: 400px;
     left: 6%;
     text-align: left;
     margin-top: 0px;
@@ -79,6 +80,7 @@ h3 {
 	display: block;
 	margin: 2%;
 	text-align: center;
+	/*text-shadow: 0px 3px 5px #3C7A5F;*/
 }
 
 h4 {
@@ -108,7 +110,7 @@ p {
 }
 
 nav {
-    float: right;
+    margin-left: 40%;
 }
 nav ul li:hover > ul {
     display: block;
@@ -119,7 +121,6 @@ nav ul {
     list-style: none;
     position: relative;
     display: inline-table;
-    margin-right: 300px;
 }
 nav ul:after {
     content: ""; 
@@ -167,7 +168,7 @@ nav ul li a {
 
 
 #greenf {
-	border: 4px solid rgba(225, 209, 0, 0.6);
+	/*border: 4px solid rgba(225, 209, 0, 0.6);*/
 	border-radius: 10px;
 	/*background-color: rgba(225, 209, 0, 0.6);*/
 	height: 300px;
@@ -179,7 +180,13 @@ nav ul li a {
 	float: left;
 	left: 5%;
 }
-
+#greenf:hover {
+	-webkit-transition: opacity 0.6s linear;
+	opacity: 0.6;
+} 
+#greenf:active {
+	top: 1%;
+}
 
 p.active {
 	color: blue;
@@ -210,3 +217,65 @@ p.active {
 	text-align: center;
 	background-size: 325px;
 }
+
+
+
+
+
+
+
+
+
+
+
+#cogen_image{
+	position: relative;
+	top: 50px;
+	left: -10px;
+}
+
+form{
+    position: fixed;
+    top: 90%;
+    left:10%;
+    z-index: 5;
+    width: 50px;
+    font-size: 40px;
+    line-height: 80px;
+}
+.button {
+   border-top: 1px solid #000000;
+   background: #000000;
+   background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+   background: -webkit-linear-gradient(top, #000000, #000000);
+   background: -moz-linear-gradient(top, #000000, #000000);
+   background: -ms-linear-gradient(top, #000000, #000000);
+   background: -o-linear-gradient(top, #000000, #000000);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 26px;
+   -moz-border-radius: 26px;
+   border-radius: 26px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 17px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+    position: fixed;
+    top: 90%;
+    left:10%;
+    z-index: 5;
+    width: 50px;
+   }
+.button:hover {
+   border-top-color: #000000;
+   background: #000000;
+   color: #bababa;
+   }
+.button:active {
+   border-top-color: #1c1c1c;
+   background: #1c1c1c;
+   }
