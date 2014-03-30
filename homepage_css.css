@@ -236,20 +236,14 @@ p.active {
 #innerpagetable{
 	margin-top: 75px;
 	margin-left: 6%;
+	margin-right: 6%;
 }
 
 
-
-
-
-#cogen_image{
-	position: relative;
-	top: 50px;
-	left: -10px;
-}
 
 .greenfeatureimage{
-	width: 75%;
+	width: 100%;
+	margin-top: 75px;
 }
 
 form{
